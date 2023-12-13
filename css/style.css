@@ -1,0 +1,61 @@
+body {
+user-select:none;
+  padding: 0px;
+  margin: 0;
+  background:linear-gradient(190deg,cyan,blue);
+background-attachment: fixed;
+background-repeat: no-repeat;
+background-size: cover;
+color: cyan;
+
+}
+
+#snekCanvas {
+  background: #000;
+  
+  margin: 0px;
+  display: block;
+  width: 100vw;
+  height: 100vh;
+}
+
+#gameOverScreen {
+transform: translateY(-100vw);
+transition:0.5s ;
+  
+z-index:1;
+ position: fixed;
+  padding: 20px;
+  width: 100vw;
+  height: 100vh;
+  background: url(sneck.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+   text-align: center;
+}
+
+
+#gameOverScreen h2 {
+  margin-top: 100px;
+}
+
+#finalScore {
+  font-weight: bold;
+}
+
+#restartButton {
+  padding: 10px 20px;
+  margin-top: 20px;
+  background: #4CAF50;
+  border-style: none;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  transition: 1s;
+}
+
+#restartButton:hover {
+  transition: 1s;
+background:linear-gradient(190deg,cyan,blue);
+}
